@@ -69,7 +69,9 @@ public class AutoServicio {
     
     //Creamos un método que recibe un objeto perteneciente a la clase "Auto" para calcular el precio total del service.
     public void calcularPrecio(Auto autoEj) {
-
+        
+        
+        
         double precioMarca = 0;     //Establecemos una variable que contendrá el precio base para cada una de las marcas.  
         
         
@@ -101,6 +103,7 @@ public class AutoServicio {
                 
         }
     }
+    
     
     
     
@@ -150,6 +153,16 @@ public class AutoServicio {
     public void mostrarAuto ( Auto autoEj ){
         
         System.out.println( autoEj );
+        
+    }
+    
+    
+    
+    
+    //Creamos un método para mostrar las marcas.
+    public void mostrarMarcas ( ) {
+        
+        System.out.println("Nuestras marcas: \n-Fiat\n-Audi\n-Ferrari");
         
     }
 }

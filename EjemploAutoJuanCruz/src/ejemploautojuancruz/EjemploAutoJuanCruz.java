@@ -37,7 +37,11 @@ public class EjemploAutoJuanCruz {
         
         //Usamos los métodos creados en la clase "AutoServicio". 
         do{
+            
+        as.mostrarMarcas();
         
+        System.out.println("--------------------------------------------------------------");
+            
         Auto autoUno = as.crearAuto();     //Usamos el método "crearAuto" para instanciar el objeto a utilizar.
         
         System.out.println("--------------------------------------------------------------");

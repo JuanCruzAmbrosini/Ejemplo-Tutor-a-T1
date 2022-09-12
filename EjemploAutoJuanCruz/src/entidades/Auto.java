@@ -55,7 +55,7 @@ public class Auto {
     //Creamos el método "toString" que nos servira para mostrar el objeto con mayor facilidad.
     @Override
     public String toString() {
-        return "Auto: \n"  + "Patente = " + patente + "\nMarca = " + marca + "\nkilometraje = " + kilometraje;
+        return "Auto: \n"  + "Patente = " + patente + "\nMarca = " + marca + "\nKilometraje = " + kilometraje;
     }
     
     
