@@ -1,7 +1,7 @@
-package entidades;
+package entidad;
 
 public class Auto {
-    
+
     public String marca;
     public String patente;
     public int km;
@@ -43,8 +43,4 @@ public class Auto {
     public String toString() {
         return "Auto: " + "\nMarca=" + marca.toUpperCase() + "\nPatente=" + patente.toUpperCase() + "\nKm=" + km;
     }
-
-    
-    
-    
 }
