@@ -2,9 +2,9 @@ package entidad;
 
 public class Auto {
 
-    public String marca;
-    public String patente;
-    public int km;
+    private String marca;
+    private String patente;
+    private int km;
 
     public Auto() {
     }
