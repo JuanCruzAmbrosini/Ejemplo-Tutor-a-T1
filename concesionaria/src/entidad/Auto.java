@@ -39,8 +39,8 @@ public class Auto {
         this.km = km;
     }
 
-    @Override
-    public String toString() {
-        return "Auto: " + "\nMarca=" + marca.toUpperCase() + "\nPatente=" + patente.toUpperCase() + "\nKm=" + km;
-    }
+  @Override
+  public String toString() {
+       return "Auto: " + "\nMarca=" + marca.toUpperCase() + "\nPatente=" + patente.toUpperCase() + "\nKm=" + km;
+  }
 }

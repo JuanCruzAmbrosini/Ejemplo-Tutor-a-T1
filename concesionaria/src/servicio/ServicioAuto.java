@@ -32,7 +32,7 @@ public class ServicioAuto {
     }
 
     public void imprimirAuto(Auto auto) {
-        System.out.println(auto.toString());
+        System.out.println(auto);
     }
 
     public void cotizarServicio(Auto auto) {

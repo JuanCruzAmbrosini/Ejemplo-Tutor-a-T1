@@ -16,11 +16,11 @@ public class Principal {
 
         servicioAuto.cotizarServicio(autoUno);
 
-//        Auto autoDos = servicioAuto.creaAuto();
+//        Auto autoDos = servicioAuto.crearAuto();
 //        servicioAuto.cotizaService(autoDos);
-//        Auto autoTres = servicioAuto.creaAuto();
+//        Auto autoTres = servicioAuto.crearAuto();
 //        servicioAuto.cotizaService(autoTres;)
-//        Auto autoCuatro = servicioAuto.creaAuto();
+//        Auto autoCuatro = servicioAuto.crearAuto();
 //        servicioAuto.cotizaService(autoCuatro);
     }
 }
